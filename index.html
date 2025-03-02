@@ -14,7 +14,7 @@
         async function rollDice() {
             try {
                 // Replace with your Node.js server URL
-                const response = await fetch('https://yashedhala.github.io/dice-roller-server/roll-dice');
+                const response = await fetch('https://yashedhala.github.io/rollingdiceyash/');
                 const data = await response.json();
                 document.getElementById('result').innerText = `You rolled a ${data.result}`;
             } catch (error) {
